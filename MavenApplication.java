@@ -18,3 +18,21 @@ public class DBProg1 {
 		{ System.out.println(e); 
 	}   }
 }
+
+
+
+
+
+
+// mysql> use paul
+// Database changed
+// mysql> create table emp3(regno int(5), name varchar(20), addr varchar(20));
+// Query OK, 0 rows affected (0.04 sec)
+
+// mysql> select * from emp3;
+// Empty set (0.01 sec)
+// mysql> insert into emp3 values(101,'Raj','10/1 Raghu street');
+// Query OK, 1 row affected (0.01 sec)
+
+// mysql> insert into emp3 values(102,'Naveen','324-Ranga street');
+// Query OK, 1 row affected (0.00 sec)
